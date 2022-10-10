@@ -7,36 +7,24 @@ Para comenzar hemos tenido que seguir unos primeros pasos que en nuestro lugar h
 
 ### 1. GITHUB
 
->GITHUB es un portal para gestionar las aplicaciones que utilizan el sistema Git. Además de permitirte mirar el código y descargarte las diferentes versiones de una aplicación, la plataforma también hace las veces de red social conectando desarrolladores con usuarios para que estos puedan colaborar mejorando la aplicación.
-
-Esta página web nos permitirá crear y guardar los repositorios que vayamos haciendo. Tambien con el CMD (Simbolo del Sistema) de nuestro equipo podemos hacer una cópia local para trabajar desde tu qeuipo y no desde el navegador. Una vez acabado lo que tenemos que hacer es resubirlo otra vez en el GITHUB. Hay diferentes comandos para ejecutar en la CMD, pero algunos de los que utilizaremos son los siguientes: [Comandos CMD GITHUB](https://gist.github.com/dasdo/9ff71c5c0efa037441b6 "Lista de comandos")
+>Esta página web nos permitirá crear y guardar los repositorios que vayamos haciendo. Tambien con el CMD (Simbolo del Sistema) de nuestro equipo podemos hacer una cópia local para trabajar desde tu qeuipo y no desde el navegador. Una vez acabado lo que tenemos que hacer es resubirlo otra vez en el GITHUB. Hay diferentes comandos para ejecutar en la CMD, pero algunos de los que utilizaremos son los siguientes: [Comandos CMD GITHUB](https://gist.github.com/dasdo/9ff71c5c0efa037441b6 "Lista de comandos")
 
 
 ### 2. GIT
 
->GIT es un sistema de control de versiones de código abierto muy popular y eficiente. Rastrea contenido como archivos y directorios.
-
-Para poder descargarlo hemos ido a la página web oficial de GIT, y a continuación hemos descargado la version x64 bits. 
+>Para poder descargarlo hemos ido a la página web oficial de GIT, y a continuación hemos descargado la version x64 bits. 
 [Pagina oficial de GIT](https://git-scm.com/ "Pagina de GIT")
 
-![capt 1 - apmd](https://user-images.githubusercontent.com/113420705/193620980-203cf5a4-61b5-445f-8c5d-75ff68831667.png)
 
 ### 3. Visual Studio Code
 
->Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web. Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.
-
-Para descargarlo hemos accedido a la página web de Visual Studio code, y nos hemos descargado la versión de 64 bits.
+>Para descargarlo hemos accedido a la página web de Visual Studio code, y nos hemos descargado la versión de 64 bits.
 [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code")
-
-![capt 3 - apmd](https://user-images.githubusercontent.com/113420705/193621791-a3392f9d-3b37-498b-8779-588fe4213c6b.png)
 
 
 ### 4. MARKDOWN
 
-Nuestro primer lenguaje de marcas que hemos visto y tocado en ASIX 1 es el lenguaje Markdown.
-
->Markdown es un lenguaje de marcado con el que puedes agregar formato a documentos de texto plano. Tambien, siendo a día de hoy uno de los lenguajes de marcado más famosos. Su popularidad se debe a que es sencillo, ligero y fácil de aprender por parte de aquellas personas que no tienen un perfil técnico. 
-
+>Nuestro primer lenguaje de marcas que hemos visto y tocado en ASIX 1 es el lenguaje Markdown.
 
 Lo que hemos de Markdown en clase ha sido:
 
@@ -93,9 +81,9 @@ Por ejemplo aqui veis los diferentes alineado de la tabla:
 
 | Encabezado 1  | Encabezado 2 | Encabezado 3 |
 | :-----------  | :----------: | -----------: |
-| Item 1        | Lápices      | 50           |
-| Item 2        | Gomas de borra      | 100           |
-| Item 3        | Boligrafos   | 150           |
+| Producto 1        | Lápices      | 50 €           |
+| Producto 2        | Gomas de borra      | 100 €          |
+| Producto 3        | Boligrafos   | 150 €          |
 
 
 6) hipervínculos:
@@ -131,8 +119,8 @@ Nuestro primer paso siempre en HTML sera ejecutar el html5 que sera una base par
 
 A partir del <body> podremos editar nuestro archivo HTML.
 Hay varias cosas que le podemos meter en nuestro archivo como ya puede ser:
-1. Para introducir párrafos es: <p> texto </p>
-2. Para crear hipervínculos es: <a href="https://es.wikipedia.org/wiki/HTML" </a>
-3. Para crear listas ordenadas es: <ol> y seguidamente poniendo <li>
-4. Para crear listas desordenadas es: <ul> y seguidamente poniendo <li> 
-5. Para meter imagenes es: <img src="https://ru.w3docs.com/uploads/media/book_gallery/0001/02/849d4286475e04155fd5f21861f16f53db95ac72.png"> alt="...">
+1. Para introducir párrafos es: ´´´<p> texto </p>´´´
+2. Para crear hipervínculos es: ´´´<a href="https://es.wikipedia.org/wiki/HTML" </a>´´´
+3. Para crear listas ordenadas es: ´´´<ol> y seguidamente pones <li>´´´
+4. Para crear listas desordenadas es: ´´´<ul> y seguidamente pones <li>´´´
+5. Para meter imagenes es: ´´´<img src="https://ru.w3docs.com/uploads/media/book_gallery/0001/02/849d4286475e04155fd5f21861f16f53db95ac72.png"> alt="...">´´´
