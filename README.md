@@ -43,7 +43,7 @@ Nuestro primer lenguaje de marcas que hemos visto y tocado en ASIX 1 es el lengu
 
 Lo que hemos de Markdown en clase ha sido:
 
-1) Los diferentes encabezados
+1) encabezados
 
 En Markdown hay 6 diferentes encabezados, que son de tamaño de mas grande a mas pequeño (directo, indirecto, noticias ...).
 Para poner un encabezado lo que tenemos que hacer es poner un hashtag (#) al principio de cada linia. Segun cuantos hashtags pongas al inicio, el tamaño del encabezado será mas grande o mas pequeño.
@@ -56,52 +56,64 @@ Muestra de todos los tipos de encabezados:
 ##### Encabezado 5
 ###### Encabezado 6
 
-2) Cómo poner negrita o cursiva:
+2) negrita o cursiva:
 
 Para poner una palabra o una frase en negrita, cursiva o las dos juntas. Para poner negrita lo que tenemos que hacer es poner dos barras bajas al principio y final de la frase o palabra, como por ejemplo en nuestro caso de ahora __SERGI__.
 Por otra parte tambien tenemos la cursiva que en este caso se pone con un asterico al principio y al final de la frase o palabra, por ejemplo *SERGI*. 
 Por ultimo tenemos la combinación de estas dos que estas dos que es poniendo primero las barras bajas y seguidamente el astérisco, por ejemplo __*SERGI*__.
 
+3) imágenes:
 
-c) Cómo crear listas 
+Tambien podemos introducir poniendo un signo de exclamación al principio y seguidamente entre claudators ponemos el texto de la imagen y por ultimo ponemos los paréntesis y alli es donde tenemos que poner la URL de la imagen que queremos poner.
 
-Otra característica del lenguaje Markdown es que podemos crear listas, tanto ordenadas como desordenadas. En primer lugar, para crear una lista ordenada tendremos que introducir un asterísco y un guión. Como por ejemplo:
+EJEMPLO:
+![Markdown](https://th.bing.com/th/id/OIP.ZUAhLxV2uq0V5zIxUN3qtgE-DE?w=294&h=181&c=7&r=0&o=5&dpr=1.25&pid=1.7)
+
+4) listas:
+
+Tenemos dos tipos de listas la ordenada y la desordenada.
+Para crear la lista ordenada lo que tenemos que poner es el numero delante, por ejemplo asi:
+1. Sergi 
+2. Sergi Rafael
+3. Sergi Rafael Sanchez
+
+Por otra parte la lista desordenada se hace poniendo el astérisco al principio de todo, por ejemplo asi:
+* Sergi 
+* Sergi Rafael
+* Sergi Rafael Sanchez
 
 
-d) Cómo introducir imágenes
+5) tablas:
 
-A su vez, Markdown nos permite introducir imágenes. Para introducir una imágen debemos poner un signo de exclamación y escribir el texto alternativo de la imagen entre corchetes y el URL que dirige a la imagen entre paréntesis.
+Por ultimo para crear una tabla tenemos que poner la barra recta | al principio y final del texto. La segunda linia de la tabla lo que debemos de poner es como queremos tener el texto alineado, hay tres tipos de alineado que son:
+1. centrado: :----:
+2. alineado a la derecha: ----:
+3. alineado a la izquierda: :-----
 
-Como por ejemplo:
-![google](https://user-images.githubusercontent.com/113420705/191205772-9891401d-f84d-4d89-bf7a-7c4130f8d378.png)
+Por ejemplo aqui veis los diferentes alineado de la tabla:
 
-e) Cómo introducir hipervínculos
+| Encabezado 1  | Encabezado 2 | Encabezado 3 |
+| :-----------  | :----------: | -----------: |
+| Item 1        | Lápices      | 50           |
+| Item 2        | Gomas de borra      | 100           |
+| Item 3        | Boligrafos   | 150           |
 
-Para crear un hipervínculo sólo tenemos que poner entre corchetes el texto del enlace seguido de la URL entre paréntesis.
 
-Por ejemplo: [Enlace a wikipedia](https://es.wikipedia.org "Haciendo click vas a la WIKIPEDIA")
+6) hipervínculos:
 
-f) Cómo crear tablas
+Para crearlo solo tenemos que poner entre claudators el nombre que quieres que te salga para que sepan a donde se van a ir si clican ahi, entre parentesis pones la URL de la página web y por ultimo dentro del parentesis dejando un espacio pones unas comillas y ahi pones un mensaje que se vera cuando tengan el cursor encima del hipervínculo. 
 
-Para finalizar, tambien nos permite crear tablas. Para crar una tabla tenemos que introducir "|" el texto y en la segunda línea el como queremos alinear el texto, podemos verlo
-- ----------: --> centrado
-- :----------- --> alineado a la izquierda 
-- -----------: --> alineado a la derecha
+Aqui puedes ver el ejemplo que he hecho:
+[Pagina oficial de Markdown](https://markdown.es/ "Haz click y vas a la pagina oficial")
 
-La siguiente tabla nos servirá de ejemplo:
-
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
-| :----------- | :----------: | -----------: |
-| Item1        | Bolígrafos   | 20           |
-| Item2        | Lápices      | 50           |
-| Item3        | Grapadoras   | 80           |
 
 ### HTML
-HTML es el segundo lenguaje de marcas que hemos visto. HTML se define como un lenguaje de marcas estándard para crear páginas web y su código es:
-Este será siempre el primer paso de nuestro trabajo.
+
+Este es el segundo lenjuage de marcado que hemos visto en ASIX 1.
+
+Nuestro primer paso siempre en HTML sera ejecutar el html5 que sera una base para empezar a trabajar.
 
 ```HTML
-  
 <!DOCTYPE html>
 <html lang= "en">
 <head>
@@ -115,19 +127,13 @@ Este será siempre el primer paso de nuestro trabajo.
   
 </body>
 </html>
-
 ```
-El _HEAD_ es la cabecera de nuestro ficero HTML. Esta parte no se ve cuando la carga nuestro navegador y en ella esta la información como el título, que lo ubicaremos dentro del <title>, enlaces al CSS, si queremos aplicar estilo a nuestro código HTML, personalizar el favicon, cambiar el charset, para que nuestro código HTML entienda determinados carácteres, como acentos, podemos activar scripts, como por ejemplo, cuando agregamos el código .js personal que nos otorga *Font Awesome* para introducir diferentes *favicons*.
-
-En el _BODY_ podemos editar el cuerpo de nuestro archivo. En el podemos:
-  - Introducir párrafos a través del comando ``<p> texto </p>``
-  - Crear hipervínculos de páginas web gracias al comando: ``<a href="https://google.es" Ejemplo de URL </a>``
-  - Introducir imágenes gracias al comando: ``<img src="https://user-images.githubusercontent.com/113420705/193840496-f97e6ad7-8d93-470b-8967-9ea393c5f659.png"> alt="Ejemplo de IMG">``
-  - Crear listas ordenadas, con el comando ``<ol>``, y poniendo ``<li>``en cada elemento. 
-  - Crear listas desordenadas, con el comando ``<ul>``, y poniendo ``<li>`` en cada elemento.
-  
-  #### Ejemplo de código HTML aplicando todos los conceptos:
-  [Ejemplo de código HTML](https://mega.nz/file/aRhyQYTT#nck7OZgis6_b1-4NV4IzjsvBsRW1qhQ58MWm52J55fk "Ejemplo de código HTML")
 
 
-
+A partir del <body> podremos editar nuestro archivo HTML.
+Hay varias cosas que le podemos meter en nuestro archivo como ya puede ser:
+1. Para introducir párrafos es: <p> texto </p>
+2. Para crear hipervínculos es: <a href="https://es.wikipedia.org/wiki/HTML" </a>
+3. Para crear listas ordenadas es: <ol> y seguidamente poniendo <li>
+4. Para crear listas desordenadas es: <ul> y seguidamente poniendo <li> 
+5. Para meter imagenes es: <img src="https://ru.w3docs.com/uploads/media/book_gallery/0001/02/849d4286475e04155fd5f21861f16f53db95ac72.png"> alt="...">
