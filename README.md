@@ -7,18 +7,22 @@ Para comenzar hemos tenido que seguir unos primeros pasos que en nuestro lugar h
 
 ### 1. GITHUB
 
->Esta página web nos permitirá crear y guardar los repositorios que vayamos haciendo. Tambien con el CMD (Simbolo del Sistema) de nuestro equipo podemos hacer una cópia local para trabajar desde tu qeuipo y no desde el navegador. Una vez acabado lo que tenemos que hacer es resubirlo otra vez en el GITHUB. Hay diferentes comandos para ejecutar en la CMD, pero algunos de los que utilizaremos son los siguientes: [Comandos CMD GITHUB](https://gist.github.com/dasdo/9ff71c5c0efa037441b6 "Lista de comandos")
+>Esta página web nos permitirá crear y guardar los repositorios que vayamos haciendo. Tambien con el CMD (Simbolo del Sistema) de nuestro equipo podemos hacer una cópia local para trabajar desde tu qeuipo y no desde el navegador. Una vez acabado lo que tenemos que hacer es resubirlo otra vez en el GITHUB. Hay diferentes comandos para ejecutar en la CMD, pero algunos de los que utilizaremos son los siguientes:
+
+[Comandos CMD GITHUB](https://gist.github.com/dasdo/9ff71c5c0efa037441b6 "Lista de comandos")
 
 
 ### 2. GIT
 
 >Para poder descargarlo hemos ido a la página web oficial de GIT, y a continuación hemos descargado la version x64 bits. 
+
 [Pagina oficial de GIT](https://git-scm.com/ "Pagina de GIT")
 
 
 ### 3. Visual Studio Code
 
 >Para descargarlo hemos accedido a la página web de Visual Studio code, y nos hemos descargado la versión de 64 bits.
+
 [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code")
 
 
@@ -91,6 +95,8 @@ Por ejemplo aqui veis los diferentes alineado de la tabla:
 Para crearlo solo tenemos que poner entre claudators el nombre que quieres que te salga para que sepan a donde se van a ir si clican ahi, entre parentesis pones la URL de la página web y por ultimo dentro del parentesis dejando un espacio pones unas comillas y ahi pones un mensaje que se vera cuando tengan el cursor encima del hipervínculo. 
 
 Aqui puedes ver el ejemplo que he hecho:
+
+
 [Pagina oficial de Markdown](https://markdown.es/ "Haz click y vas a la pagina oficial")
 
 
@@ -119,8 +125,8 @@ Nuestro primer paso siempre en HTML sera ejecutar el html5 que sera una base par
 
 A partir del <body> podremos editar nuestro archivo HTML.
 Hay varias cosas que le podemos meter en nuestro archivo como ya puede ser:
-1. Para introducir párrafos es: ´´´<p> texto </p>´´´
-2. Para crear hipervínculos es: ´´´<a href="https://es.wikipedia.org/wiki/HTML" </a>´´´
-3. Para crear listas ordenadas es: ´´´<ol> y seguidamente pones <li>´´´
-4. Para crear listas desordenadas es: ´´´<ul> y seguidamente pones <li>´´´
-5. Para meter imagenes es: ´´´<img src="https://ru.w3docs.com/uploads/media/book_gallery/0001/02/849d4286475e04155fd5f21861f16f53db95ac72.png"> alt="...">´´´
+1. Para introducir párrafos es: ```<p> texto </p>```
+2. Para crear hipervínculos es: ```<a href="https://es.wikipedia.org/wiki/HTML" </a>```
+3. Para crear listas ordenadas es: ```<ol> y seguidamente pones <li>```
+4. Para crear listas desordenadas es: ```<ul> y seguidamente pones <li>```
+5. Para meter imagenes es: ```<img src="https://ru.w3docs.com/uploads/media/book_gallery/0001/02/849d4286475e04155fd5f21861f16f53db95ac72.png"> alt="...">```
