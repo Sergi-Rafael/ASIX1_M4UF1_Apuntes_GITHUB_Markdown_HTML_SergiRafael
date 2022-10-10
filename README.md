@@ -11,9 +11,6 @@ Para comenzar hemos tenido que seguir unos primeros pasos que en nuestro lugar h
 
 Esta página web nos permitirá crear y guardar los repositorios que vayamos haciendo. Tambien con el CMD (Simbolo del Sistema) de nuestro equipo podemos hacer una cópia local para trabajar desde tu qeuipo y no desde el navegador. Una vez acabado lo que tenemos que hacer es resubirlo otra vez en el GITHUB. Hay diferentes comandos para ejecutar en la CMD, pero algunos de los que utilizaremos son los siguientes: [Comandos CMD GITHUB](https://gist.github.com/dasdo/9ff71c5c0efa037441b6 "Lista de comandos")
 
-Sobretodo, uno de los grandes problemas que hemos tenido al crear la cuenta ha sido al configurarlo con nuestro PC. Así que recomiendo que se preste mucha atención a los dos primeros puntos del enlace.
-
-![capt 2 - apmd](https://user-images.githubusercontent.com/113420705/193621834-9c9c9615-4b03-42ac-b57d-84d30e6e71dd.png)
 
 ### 2. GIT
 
@@ -67,6 +64,8 @@ Por ultimo tenemos la combinación de estas dos que estas dos que es poniendo pr
 Tambien podemos introducir poniendo un signo de exclamación al principio y seguidamente entre claudators ponemos el texto de la imagen y por ultimo ponemos los paréntesis y alli es donde tenemos que poner la URL de la imagen que queremos poner.
 
 EJEMPLO:
+
+
 ![Markdown](https://th.bing.com/th/id/OIP.ZUAhLxV2uq0V5zIxUN3qtgE-DE?w=294&h=181&c=7&r=0&o=5&dpr=1.25&pid=1.7)
 
 4) listas:
