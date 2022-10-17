@@ -9,8 +9,65 @@ Para comenzar hemos tenido que seguir unos primeros pasos que en nuestro lugar h
 
 >Esta página web nos permitirá crear y guardar los repositorios que vayamos haciendo. Tambien con el CMD (Simbolo del Sistema) de nuestro equipo podemos hacer una cópia local para trabajar desde tu qeuipo y no desde el navegador. Una vez acabado lo que tenemos que hacer es resubirlo otra vez en el GITHUB. Hay diferentes comandos para ejecutar en la CMD, pero algunos de los que utilizaremos son los siguientes:
 
-[Comandos CMD GITHUB](https://gist.github.com/dasdo/9ff71c5c0efa037441b6 "Lista de comandos")
+- __COMO CREAR UN RESPOSITORIO EN GITHUB:__
+    - Nos movemos a nuestros repositorios alli veremos que nos sale una opcion donde pone NEW, le damos.
+        ![image](https://user-images.githubusercontent.com/113420713/196280893-8cffe295-6e38-4f44-967a-712a24b0dc68.png)
+    - Ahora, le tendremos que poner el nombre que queramos que se llame el repositorio
+        ![image](https://user-images.githubusercontent.com/113420713/196281252-2d8e7a15-7f9c-4b2c-94d3-b955db24e576.png)
+    - Lo dejamos en publico.
+    
+        ![image](https://user-images.githubusercontent.com/113420713/196281609-4f2cbf03-0877-48db-86b1-3402c8137347.png)
+    - Selecionamos la opcion "Add a README file".
+    
+        ![image](https://user-images.githubusercontent.com/113420713/196281683-fb2bc18e-77cc-4670-b878-7eee0202340c.png)
+    - Bajamos a bajo y le damos a crear repositorio
+    
+        ![image](https://user-images.githubusercontent.com/113420713/196281756-bdbb4ddb-eba9-4fe0-9787-6f528f7381e6.png)
 
+
+1. Los comandos en CMD para bajar el repositorio de la pagina web a local son:
+
+    - vas a la carpeta donde quieras guardar los repositorios. En mi caso es de la siguiente forma.
+       - cd/
+       - dir
+       - cd "repositorios GITHUB"
+       - git clone "URL del GITHUB"
+    - Para selecionar la URL tiene que ir a GITHUB, en la pagina principal repositorio que hayas creado. Encima de la lista de archivos, haga clic en Code (Codigo).
+
+      ![image](https://user-images.githubusercontent.com/113420713/196273914-bba032a1-1e7f-4d76-9966-a99c8e7b80fe.png)
+    - Una vez tenemos eso y estamos en Clone nos vamos al apartado de HTTPS, alli nos saldra una URL en la cual la tendremos que copiar.
+      ![image](https://user-images.githubusercontent.com/113420713/196274367-6d3bf731-1dc3-4b31-abe8-01de724b1bfa.png)
+    - Una vez hemos hecho eso nos tiene que salir las siguientes instruciones.
+      ![image](https://user-images.githubusercontent.com/113420713/196275320-ccb9b659-f269-4116-bd93-1c5efd205248.png)
+    - Finalmente queda listo para trabajar en local.
+2. Configurar Nombre que salen en los __commits__ y configurar el __Email__:
+    - El comando que hay que ejecutar para que los nombres que salen en los __commits__ es:
+        - git config --global user.name "Sergi-Rafael"
+    - El comando para configurar el Email es:
+        - git config --global user.email "juan23@juan23.j23"
+3. Para iniciar (subir) el repositorio es:
+     - Iniciamos GIT en la carpeta donde esta el proyecto/respositorio
+        - git init
+     - Añadimos __todos__ los archivos para el commit
+        - git add.
+     - Hacemos el primer commit
+        - git commit -m "Ponemos el texto que nos identifique con el commit"
+     - Subimos el repositorio
+        - git push origin master
+4. En caso de que nos hayamos equivocado en el repositorio y lo queramos eliminar seria de la siguiente forma:
+     - Vamos a la pagina web GITHUB
+     - Nos dirigimos a donde esta nuestro repositorio
+          ![image](https://user-images.githubusercontent.com/113420713/196279178-9470970d-45a1-417f-b242-1ec2a90ecf03.png)
+     - Le damos clic encima del repositorio equivocado
+     - Encima nos saldra una barra  con diferentes opciones, buscamos la de Settings (ajuestes)
+          ![image](https://user-images.githubusercontent.com/113420713/196278833-dcdcd42c-a3d2-4f1f-9bc3-4b6398b3cac9.png)
+     - Nos vamos a bajo del todo donde pone Danger zone (Zona Peligrosa)
+     - Le damos a Delete this repository
+          ![image](https://user-images.githubusercontent.com/113420713/196279717-0ad384b7-82c7-49c5-aaf0-c1ba9a88b0fd.png)
+     - Por ultimo nos saldra una advertencia en la cual tendremos que copiar tu "nombre_de_usuario/nombre_de_repositorio" en el cuadro siguiente
+          ![image](https://user-images.githubusercontent.com/113420713/196280085-58ceda70-9d81-4992-9ff1-b0c683bbc85a.png)
+     - Finalmente ya no tendremos el repositorio
+5. Estos son los 5 seguimientos tan sencillos para clonar, bajar, subir y eliminar de GITHUB.
 
 ### 2. GIT
 
@@ -25,7 +82,15 @@ Para comenzar hemos tenido que seguir unos primeros pasos que en nuestro lugar h
 
 [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code")
 
-
+1. Para abrir una hoja de Visual Studio Code se hace de la siguiente forma:
+    - Vamos a la parte superior izquierda y le damos archivo, le damos y nos saldra bastantes opciones. Buscamos la opcion de __Nuevo archivo__.
+    
+        ![image](https://user-images.githubusercontent.com/113420713/196282440-f43a7bf1-9068-45ff-acbc-b52398d2bc6c.png)
+    - Le ponemos el nombre del archivo y en que formato lo queremos (*txt ; .html ; .php ; ...)
+    
+        ![image](https://user-images.githubusercontent.com/113420713/196282669-bfd03683-5d93-4855-8301-9897102fd6a1.png)
+    - Por ultimo se nos abre la hoja y ya esta lista para escribir
+    
 ### 4. MARKDOWN
 
 >Nuestro primer lenguaje de marcas que hemos visto y tocado en ASIX 1 es el lenguaje Markdown.
