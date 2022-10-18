@@ -53,7 +53,7 @@ Para comenzar hemos tenido que seguir unos primeros pasos que en nuestro lugar h
      - Hacemos el primer commit
         - git commit -m "Ponemos el texto que nos identifique con el commit"
      - Subimos el repositorio
-        - git push origin master
+        - git push origin main
 4. En caso de que nos hayamos equivocado en el repositorio y lo queramos eliminar seria de la siguiente forma:
      - Vamos a la pagina web GITHUB
      - Nos dirigimos a donde esta nuestro repositorio
