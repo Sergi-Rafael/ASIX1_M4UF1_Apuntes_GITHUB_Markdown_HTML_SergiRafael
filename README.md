@@ -195,3 +195,38 @@ Hay varias cosas que le podemos meter en nuestro archivo como ya puede ser:
 3. Para crear listas ordenadas es: ```<ol> y seguidamente pones <li>```
 4. Para crear listas desordenadas es: ```<ul> y seguidamente pones <li>```
 5. Para meter imagenes es: ```<img src="https://ru.w3docs.com/uploads/media/book_gallery/0001/02/849d4286475e04155fd5f21861f16f53db95ac72.png"> alt="...">```
+
+
+### 5. CSS
+
+El ```CSS``` es el tercer llenguatge de marques que hem vist, aquest llenguatge de marques s'utilitza per donar estils a una fulla del html.
+
+· Per poder utilitzar el ```CSS``` com ja e dit abans primer hem de tindre una fulla on sigui de HTML i un altre per el CSS, en la del ```CSS``` li posarem un link amb el nom de l'arxiu del ```HTML```.
+
+
+IMAGEN
+
+
+ · A continuacion mostrare una serie de funciones que se pueden utilizar en una hoja de estilos del ```CSS``` para dar una estructura, diseño o presentacion a una pagina ```HTML```.
+
+-Google Fonts sirve para utilizar diferentes letras y estilos.
+
+-Para crear un recuadre alrededor de un párrafo: ```border```
+
+-Para hacer un margen de separación entre el otro bloque: ```margin```
+
+-Para hacer una distancia entre el recuadro de alrededor y el texto: ```padding```
+
+-Para hacer las esquinas curvas de un recuadro: ```border-radius```
+
+-Para determinar la anchura de un contenido: ```width```
+
+-Para determinar la grandaria del texto: ```font-weight```
+
+-El color del texto: ```color```
+
+-El color del fondo del texto: ```backgroung-color```
+
+-Para seleccionar una parte en concreto (palabra/texto), utilizamos: ```id``` se muestra con un punto```.```
+
+-Para decorar el texto con más opciones podemos utilizar: ```text-decoration```
