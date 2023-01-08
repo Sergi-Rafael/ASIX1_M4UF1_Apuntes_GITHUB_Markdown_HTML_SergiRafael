@@ -209,24 +209,33 @@ IMAGEN
 
  · A continuacion mostrare una serie de funciones que se pueden utilizar en una hoja de estilos del ```CSS``` para dar una estructura, diseño o presentacion a una pagina ```HTML```.
 
--Google Fonts sirve para utilizar diferentes letras y estilos.
+- Para hacer un margen de separación entre el otro bloque: 
+```margin```
 
--Para crear un recuadre alrededor de un párrafo: ```border```
+- Para crear un recuadre alrededor de un párrafo: 
+```border```
 
--Para hacer un margen de separación entre el otro bloque: ```margin```
+- Para hacer una distancia entre el recuadro de alrededor y el texto: 
+```padding```
 
--Para hacer una distancia entre el recuadro de alrededor y el texto: ```padding```
+- Para determinar la grandaria del texto: 
+```font-weight```
 
--Para hacer las esquinas curvas de un recuadro: ```border-radius```
+- Para determinar la anchura de un contenido: 
+```width```
 
--Para determinar la anchura de un contenido: ```width```
+- Para hacer las esquinas curvas de un recuadro: 
+```border-radius```
 
--Para determinar la grandaria del texto: ```font-weight```
+- El color del texto: 
+```color```
 
--El color del texto: ```color```
+- El color del fondo del texto: 
+```backgroung-color```
 
--El color del fondo del texto: ```backgroung-color```
+- Para decorar el texto con más opciones podemos utilizar: 
+```text-decoration```
 
--Para seleccionar una parte en concreto (palabra/texto), utilizamos: ```id``` se muestra con un punto```.```
+-Para seleccionar una parte en concreto, utilizamos: 
+```id```  que se hace con un ```.```
 
--Para decorar el texto con más opciones podemos utilizar: ```text-decoration```
